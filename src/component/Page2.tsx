@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 import SkillCard from './SkillCard';
-import Java from '../assets/java.png'
-import JavaScript from '../assets/javascript.png'
+import Java from '../assets/java.png';
+import JavaScript from '../assets/javascript.png';
 import SpringBoot from '../assets/Spring-boot.png'
 import Node from '../assets/node-js.png'
 import Express from '../assets/ExpressJs.png'
-import ReactLogo from '../assets/React.png'
+import ReactLogo from '../assets/react.png'
 import NextJs from '../assets/NextJs.png'
 import Angular from '../assets/Angular.png'
 import MongoDB from '../assets/MongoDB.png'
