@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Logo from '../assets/Logo.png'
+
 import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 
@@ -37,7 +37,7 @@ const NavBar = ({ contactRef, certificateRef, projectRef, aboutRef ,experienceRe
       <div className='col-span-1'>
         <div className='grid grid-cols-12 ml'>
           <div className='col-span-2 flex justify-end items-center'>
-            <img src={Logo} className='w-8 h-8 tablet-or-mobile:w-6 tablet-or-mobile:h-6' alt="Logo" />
+           {/* <img src={Logo} className='w-8 h-8 tablet-or-mobile:w-6 tablet-or-mobile:h-6' alt="Logo" /> */}
           </div>
           <div className='col-span-6 flex justify-start items-center'>
             <label className='text-font-color text-2xl ml-3 font-bold tablet-or-mobile:text-lg tablet-or-mobile:text-nowrap'>Dinuk Dissanayake</label>
