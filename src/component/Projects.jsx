@@ -1,7 +1,7 @@
 import ProjectCard from './ProjectCard';
 import Facebook from '../assets/Facebook.png';
 import PrideProducts from '../assets/Pride-Products.png'
-import ChatzApp from '../assets/ChatzApp.mp4'
+import ChatzApp from '../assets/ChatzAPP.mp4'
 import EEshop from '../assets/EEshop.png'
 import Library from '../assets/Library.png'
 
