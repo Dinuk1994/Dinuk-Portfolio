@@ -6,11 +6,11 @@ import { TbBrandGithubFilled } from "react-icons/tb";
 import { TbBrandWhatsapp } from "react-icons/tb";
 const Contents = () => {
     return (
-        <div  className="grid grid-cols-2 tablet-or-mobile:grid-cols-1 bg-bg-color mt-10 pb-20">
+        <div className="grid grid-cols-2 tablet-or-mobile:grid-cols-1 bg-bg-color mt-10 pb-20">
             <div data-aos="fade-right" className="col-span-1 ml-4 pt-40 tablet-or-mobile:pt-5  items-center">
                 <label htmlFor="" className='font-semibold flex justify-center text-4xl text-white tablet-or-mobile:text-3xl'>Hello !</label><br />
                 <label className="flex justify-center tablet-or-mobile:text-[20px] text-white text-[40px] items-center">
-                    {"I'm"} <span className="ml-5 text-[70px] text-font-color tablet-or-mobile:text-[35px] font-semibold">Dinuk Tharindu</span>
+                    {"I'm"} <span className="ml-5 text-[70px] text-font-color tablet-or-mobile:text-[35px] text-nowrap font-semibold">Dinuk Tharindu</span>
                 </label><br />
                 <div className="relative flex justify-center mt-6 text-white text-4xl tablet-or-mobile:text-2xl  items-center ">
                     <span className="absolute t whitespace-nowrap  pb-7 overflow-hidden animate-typing-sequence">
@@ -22,8 +22,8 @@ const Contents = () => {
                 </div>
                 <div className='flex justify-center mt-20 tablet-or-mobile:mt-10'>
                     <a
-                         href='/dist/assets/Dinuk_Dissanayake.pdf' 
-                        download="Dinuk_Dissanayake_CV.pdf"   
+                         href='Dinuk_Dissanayake.pdf' 
+                        download="Dinuk_Dissanayake_CV.pdf"
                         className='w-60 h-16 tablet-or-mobile:w-44 tablet-or-mobile:h-12 hover:bg-gray-800 group bg-bg-color-2 shadow-lg shadow-black rounded-2xl flex justify-center'
                     >
                         <label className='text-font-color group-hover:text-white flex items-center font-semibold tablet-or-mobile:text-lg text-2xl'>
