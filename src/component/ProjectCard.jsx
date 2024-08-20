@@ -16,7 +16,7 @@ const ProjectCard = ({ media, description, link }) => {
                     <label className='flex justify-center text-2xl mt-2 tablet-or-mobile:hidden text-font-color font-semibold' htmlFor="">{name}</label>
                 </div>
                 <div className='absolute text-font-color -inset-y-5 w-[550px] h-[200px] flex justify-center items-center bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                    <p className='text-center'>{description} <br /><span className="text-white">Click to navigate to Github Link</span></p>
+                    <p className='text-center tablet-or-mobile:hidden'>{description} <br /><span className="text-white tablet-or-mobile:hidden">Click to navigate to Github Link</span></p>
                 </div>
             </div>
         </a>
