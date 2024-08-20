@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base : "/Dinuk-Portfolio/",
   plugins: [react()],
+  server: {
+    // Ensure CORS is handled if needed
+    cors: true,
+  },
 })
