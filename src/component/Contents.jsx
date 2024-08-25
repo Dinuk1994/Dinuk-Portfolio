@@ -22,7 +22,7 @@ const Contents = () => {
                 </div>
                 <div className='flex justify-center mt-20 tablet-or-mobile:mt-10'>
                     <a
-                         href='Dinuk_Dissanayake1.pdf' 
+                         href='Dinuk_Dissanayake.pdf' 
                         download="Dinuk_Dissanayake_CV.pdf"
                         className='w-60 h-16 tablet-or-mobile:w-44 tablet-or-mobile:h-12 hover:bg-gray-800 group bg-bg-color-2 shadow-lg shadow-black rounded-2xl flex justify-center'
                     >
